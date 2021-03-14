@@ -1,0 +1,51 @@
+body,
+html {
+  width:  100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  background: url("investing.jpg") no-repeat center center fixed;
+
+/*
+  background: url(../../../../../computer_startup_img.jpg) no-repeat center center fixed;
+*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr{
+  border-color: #228ae6;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+h1{
+  font-size: 3em;
+  color: #d0ffb4;
+  text-shadow: #228ae6 1px 0 10px;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl{
+  padding: 1em 2em;
+}
+
+.btn-primary{
+  background-color: ##228ae6;
+  border-color: ##228ae6;
+}
+
+.btn-primary:hover{
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+.buffer{
+  height: 8.5em;
+}
